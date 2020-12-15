@@ -1,0 +1,25 @@
+.custom-font{
+    font-size: 20px;
+}
+
+
+li:hover .hiding-stuff{
+    visibility: visible;
+}
+
+/* li:hover .hiding-stuff{
+    visibility: visible;
+} */
+
+.hiding-stuff{
+    visibility: hidden;
+}
+
+li div:last-of-type i:hover {
+    color:red;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
